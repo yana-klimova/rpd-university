@@ -1,0 +1,152 @@
+body{
+	background: #eee;
+}
+
+.wrap{
+	margin-top: 50px;
+}
+
+.wrap > .container {
+    padding: 20px 0px 0px;
+}
+
+.main-content{
+	margin-top: 70px;
+}
+
+#direct-title h3{
+	margin: 0 0 10px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*tr.active..table-desc {
+	height: 300px;
+}*/
+
+.discipline-content{
+	margin-top:0px;
+}
+
+.discipline-h {
+	margin: 0px;
+	line-height: 0;
+}
+
+table.discipline-table th, tr {
+	text-align: center;
+}
+
+table.discipline-comp > tbody > tr {
+	text-align: left;
+}
+
+table.discipline-section > thead > tr {
+  text-align: center;
+}
+
+table.section-table > tr, th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+table.total-table > tr {
+  text-align: center;
+}
+
+table.total-table{
+  margin-top: 10px;
+}
+
+table.assessment{
+  margin-bottom: 10px;
+}
+
+.form-comp, .all-form{
+	margin-left: 15px;
+}
+
+.certification-panel{
+  padding: 10px;
+}
+
+.navbar-inverse .navbar-text.login-h{
+  color: #ded7d7;
+}
+
+#toast-success {
+  visibility: hidden;  Hidden by default. Visible on click 
+  min-width: 250px; /* Set a default minimum width */
+  width: 400px; /* Ширина слоя в пикселах */
+  height: 50px;
+  background-color: #5cb85c;
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 10px; 
+  position: fixed;
+  z-index: 1;
+  left: 50%; 
+  top: 50%; 
+  margin-left: -210px; /* Отступ слева, включает padding и border */
+
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#toast-success.show {
+  visibility: visible;
+
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 1s;
+  animation: fadein 0.5s, fadeout 0.5s 1s;
+
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {opacity: 1;} 
+  to {opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+#test-form, #task-form, #checkboxPractices, #checkboxLabs, .hide-input-time-lab, .hide-input-time-practice, #hide-error, .hide-input-time, .classroom-create-hide{
+  display: none;
+}
+
+#test-form.show, #task-form.show, #checkboxLabs.show, #checkboxPractices.show, .hide-input-time-lab.show, .hide-input-time-practice.show, #hide-error.show, .classroom-create-hide.show{
+  display: block;
+}
+
+#hide-error.show{
+  color: red;
+}
+
+.control-content{
+  margin-top:30px;
+}
+
+.selectedCourse{
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #1d4356;
+}
+
+.navbar .navbar-inverse .admin-menu > .container-fluid{
+  background: #d9edf7;
+}
+
+.btn-space{
+  margin-right: 5px;
+}
